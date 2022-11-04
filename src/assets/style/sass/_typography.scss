@@ -1,0 +1,128 @@
+@import "./mixin.scss";
+
+.h1 {
+    @include typography(Montserrat, normal, 600, 30px, 40px, #EEEEEE)
+}
+
+.h2 {
+    @include typography(Montserrat, normal, 520, 14px, 20px, #EEEEEE)
+}
+
+.modal-h1 {
+    @include typography(Montserrat, normal, 800, 22px, 24px, #000000)
+}
+
+.modal-h2 {
+    @include typography(Montserrat, normal, 500, 14px, 20px, rgba(21, 25, 32, 0.5))
+}
+
+// .modal-btn1{
+//     @include typography(Work Sans , normal , 600, 14px, 24px ,color , rgba(21, 25, 32, 0.5) )
+// }
+// .modal-btn2{
+//     @include typography(Work Sans , normal , 600, 14px, 24px ,color , #FFFFFF )
+// }
+.screenmodal1{
+    @include typography(Montserrat, normal, 800, 22px, 24px,  #FFFFFF)
+}
+.screen-sharemodal-center{
+    @include typography(Montserrat, normal, 800, 22px, 24px,  #B9BBBE)
+}
+.peopleComponent{
+    @include typography(Montserrat, normal, 600px,18px , 17px , #EEEEEE)
+}
+.peopleComponent1{
+    @include typography(Montserrat, normal, 500px ,  15px , 17px , #CFCFCF)
+}
+.msg-text{
+    @include typography(Helvetica Neue, normal, 400px ,  14px , 20px , #FFFFFF)
+}
+.micmodalspan{
+    @include typography(Montserrat, normal, 600px ,  15px , 17px ,#B9BBBE)
+}
+.micmodal-span2{
+    @include typography(Montserrat, normal, 400, 14px, 20px, #FFFFFF )
+}
+
+.camera{
+    @include typography(Montserrat, normal, 700, 22px, 150%, #FFFFFF )
+}
+
+.camera2{
+    @include typography(Montserrat, normal, 600, 18px, 22px, #FFFFFF)
+}
+.title{
+    @include typography(Montserrat, normal, 600, 14px, 150%, #FFFFFF )
+}
+.subtitle{
+    @include typography(Montserrat , normal, 500px ,  14px , 17px , #0E48F6)
+}
+.subtitle1{
+    @include typography(Montserrat , normal, 400px ,  14px , 150% , #FFFFFF)
+}
+.button-text{
+    @include typography(Roboto, normal, 500, 10.94px, 150%, #FFFFFF )
+}
+.question-btn{
+    @include typography(Work Sans, normal, 600, 14px, 24px, #FFFFFF)
+}
+.subtitle2{
+    @include typography(  Montserrat, normal,  500px  , 14px  ,  20px  ,rgba(21, 25, 32, 0.5))
+}
+
+.surveysubtitle{
+    @include typography(Montserrat, normal, 500, 15.59px, 19px, #FFFFFF )
+}
+.surveytextarea {
+
+    @include typography(Montserrat , normal, 500px ,  14px , 17px ,  #D1AAFE )
+}
+
+.surveytextareasize {
+
+    @include typography(Montserrat , normal, 500px ,  10px , 12px , #FFFFFF )
+}
+
+.subtitle3{
+
+    @include typography(Montserrat , normal, 500px ,  10px , 12px , #FFFFFF )
+}
+
+.surveybtn1 {
+      
+    @include typography(Montserrat , normal, 600px ,  13px , 150% , #FFFFFF )
+}
+
+.surveybtn2 {
+      
+    @include typography(Montserrat , normal, 500px ,  12px , 15px , #FFFFFF )
+}
+.subtitle5{
+    @include typography(Montserrat , normal, 500px ,  9.09px , 11px , #EEEEEE )
+}
+.subtitle6{
+    @include typography(Montserrat , normal, 500px ,  14px , 17px , #FFFFFF )
+}
+.subtitle7{
+    @include typography(Montserrat , normal,300px ,  10px , 12px , #FFFFFF )
+}
+.survey-detail-subheading{
+    @include typography(Montserrat , normal, 600px ,  14px , 17px , #FFFFFF )
+}
+
+.sd-1{
+    @include typography(Roboto, normal, 700, 11.1054px, 150%, #FFFFFF )
+}
+ .sd-2{
+    @include typography(Montserrat , normal, 500px ,  13px , 16px , #FFFFFF )
+ }
+ .timer-heading{
+    @include typography(Public Sans , normal, 700px ,  19px , 24px , #000000 )
+ }
+ .timer-content{
+    @include typography(Public Sans , normal, 400px ,  12px , 14px ,rgba(21, 25, 32, 0.32) )
+ }
+ .Whiteboard{
+    @include typography(Montserrat , normal, 500px ,  11px , 14px , #FFFFFF )
+ }
+

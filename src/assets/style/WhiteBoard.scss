@@ -1,0 +1,20 @@
+.container{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    //background-color: blue;
+    width: 200%;
+    height: 99%;
+    z-index: 5;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    
+}
+ .centered{
+    background: linear-gradient(180deg, #FFFFFF 0%, #E9EBE8 24.16%, #E0E0E0 47.76%, #D6D6D6 83.99%, #D7D7D7 102.1%, #B9B9B9 102.35%, #B9B9B9 105.41%);
+//     position: fixed;
+//     width: 80%;
+//      height: 60%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+ }

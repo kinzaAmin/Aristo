@@ -1,0 +1,59 @@
+.screen2-container {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px 20px;
+    background-image: url("../images/backgroundimg.png");
+    backdrop-filter: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.s2-crossicon {
+    position: relative;
+    left: 90%
+}
+
+.screen2-lastportion {
+    display: flex;
+    justify-content: space-between;
+
+    width: 1720px;
+
+    position: relative;
+    left: 90px;
+    bottom: 30px;
+
+}
+
+.mic-cam {
+    display: flex;
+    width: 60%;
+    height: 90%;
+}
+
+.s2-center {
+
+    width: 70%;
+    height: 190% !important;
+
+    position: relative;
+    left: 270px;
+    bottom: 90px;
+    display: flex;
+
+    padding-top: 20px;
+
+}
+.screen-view-part{
+
+    display: flex;
+}
+
+.set-img {
+    display: flex;
+    flex-direction: row;
+}
